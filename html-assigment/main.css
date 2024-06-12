@@ -1,0 +1,41 @@
+ /*main.css*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18
+}
+/* change the color of header anf footer */
+header, footer {
+    background-color: black;
+}
+/* adding site title to the main heading */
+.site-title {
+    color:aqua;
+}
+#my-image {
+    box-shadow: 0 02px 1px black ;
+}
+/*changing the bullet of hobbies to square*/
+.hobbies-list{
+    list-style-type: square;
+}
+/* adding background to odd items in hobbies list */
+.hobbies-list li:nt-child(odd) {
+    background-color: yellowgreen
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px;
+    border:1px solid black
+}
+
+nav a:hover, nav a:focus {
+    background-color:brown
+    color: white;
+}
